@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Potato project</title>
+        <!-- <link rel="icon" type="loki.jpg" href="{{url_for("static", filename="/Image/icon.jpg")}}"> -->
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">   
+        <style>
+             .primary{
+            border-color: lightgreen;
+            color:thistle
+            font-size:10px;  
+            padding: 9px 18px; 
+            cursor: pointer;
+            border-radius: 13px;
+            margin-right: 53px;
+            }
+            body{
+            background-color:rgb(199, 184, 158);
+             }
+        </style>
+    </head>
+    <body>
+        <center>
+        <form method="post" action="/index">
+            <p>The predicted intent is: {{ intent }}</p>
+        </form>
+        
+        
+        </center>
+
+    </body>
+</html>
